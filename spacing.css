@@ -1,0 +1,320 @@
+  
+/*
+You will get this kind of CSS file while compiling 'spacing-generator.scss'.
+It will create spacing classes for margin and padding.
+Eg: mt-0 , pl-5
+  
+The first letter represents the spacing type ( Margin/Padding ).
+m:  margin 
+p:  padding 
+The second letter represents the direction.
+l: left
+r: right
+t: top
+b: bottom
+v: vertical (top and bottom)
+h: horizontal (left and right)
+a: all
+The third represents the spacing value (which you can give your own)
+For eg: 'mb-0' means margin-bottom: 0;
+*
+
+.pa-0 {
+  padding: 0px;
+}
+
+.pl-0 {
+  padding-left: 0px;
+}
+
+.pt-0 {
+  padding-top: 0px;
+}
+
+.pr-0 {
+  padding-right: 0px;
+}
+
+.pb-0 {
+  padding-bottom: 0px;
+}
+
+.pv-0 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.ph-0 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.pa-5 {
+  padding: 5px;
+}
+
+.pl-5 {
+  padding-left: 5px;
+}
+
+.pt-5 {
+  padding-top: 5px;
+}
+
+.pr-5 {
+  padding-right: 5px;
+}
+
+.pb-5 {
+  padding-bottom: 5px;
+}
+
+.pv-5 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.ph-5 {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.pa-10 {
+  padding: 10px;
+}
+
+.pl-10 {
+  padding-left: 10px;
+}
+
+.pt-10 {
+  padding-top: 10px;
+}
+
+.pr-10 {
+  padding-right: 10px;
+}
+
+.pb-10 {
+  padding-bottom: 10px;
+}
+
+.pv-10 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.ph-10 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.pa-15 {
+  padding: 15px;
+}
+
+.pl-15 {
+  padding-left: 15px;
+}
+
+.pt-15 {
+  padding-top: 15px;
+}
+
+.pr-15 {
+  padding-right: 15px;
+}
+
+.pb-15 {
+  padding-bottom: 15px;
+}
+
+.pv-15 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.ph-15 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.pa-20 {
+  padding: 20px;
+}
+
+.pl-20 {
+  padding-left: 20px;
+}
+
+.pt-20 {
+  padding-top: 20px;
+}
+
+.pr-20 {
+  padding-right: 20px;
+}
+
+.pb-20 {
+  padding-bottom: 20px;
+}
+
+.pv-20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.ph-20 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.ma-0 {
+  margin: 0px;
+}
+
+.ml-0 {
+  margin-left: 0px;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.mr-0 {
+  margin-right: 0px;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mv-0 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.mh-0 {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.ma-5 {
+  margin: 5px;
+}
+
+.ml-5 {
+  margin-left: 5px;
+}
+
+.mt-5 {
+  margin-top: 5px;
+}
+
+.mr-5 {
+  margin-right: 5px;
+}
+
+.mb-5 {
+  margin-bottom: 5px;
+}
+
+.mv-5 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.mh-5 {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.ma-10 {
+  margin: 10px;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mv-10 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.mh-10 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.ma-15 {
+  margin: 15px;
+}
+
+.ml-15 {
+  margin-left: 15px;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.mr-15 {
+  margin-right: 15px;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.mv-15 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.mh-15 {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.ma-20 {
+  margin: 20px;
+}
+
+.ml-20 {
+  margin-left: 20px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mv-20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.mh-20 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
