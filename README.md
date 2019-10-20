@@ -21,6 +21,7 @@ For eg: `mb-0`  means margin-bottom: 0;
 
 ### Model
 This will be the generated spacing class styling examples 
+
 | class | css |
 |--|--|
 | .ma-0 | `.ma-0 { margin: 0 }`  |
