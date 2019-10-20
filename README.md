@@ -4,16 +4,24 @@ This will help you to generate several spacing classes for margin and padding.
 Eg: `'mt-0'` , `'pl-5'`
   
 ### The first letter represents the spacing type ( Margin/Padding ).
+
 **m** :  margin 
+
 **p** :  padding 
 
 ### The second letter represents the direction.
 **l**	: left
+
 **r**	: right
+
 **t** 	: top
+
 **b** 	: bottom
+
 **v**	: vertical (top and bottom)
+
 **h**	: horizontal (left and right)
+
 **a**	: all
 
 ### The third represents the spacing value (which you can give your own)
