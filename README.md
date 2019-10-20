@@ -2,6 +2,14 @@
 This will help you to generate several spacing classes for margin and padding.
 
 Eg: `'mt-0'` , `'pl-5'`
+
+
+### How to Use
+Download/Clone this [spacing-generator.scss](https://github.com/vineethtrv/sass-spacing-generator/blob/master/spacing-generator.scss)  file and include it in your sass project.
+
+If you are not using sass on your project, I have included a basic [spacing.css](https://github.com/vineethtrv/sass-spacing-generator/blob/master/spacing.css) on github, you can use this one.
+Or elseyou can copy this code and and generate css using online sass compiler like [SassMeister](https://www.sassmeister.com), [Sass.js](https://sass.js.org). 
+
   
 ### The first letter represents the spacing type ( Margin/Padding ).
 
